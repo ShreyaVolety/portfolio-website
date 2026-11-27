@@ -1,0 +1,34 @@
+.paper-hero{max-width:1000px;margin:auto;padding:48px 28px 30px 273px;text-align:left}.paper-hero h1{font:400 clamp(34px,4.8vw,54px)/1.12 var(--serif);letter-spacing:-.045em;margin:0 0 12px}.paper-subtitle{font-size:20px;line-height:1.5;max-width:680px;margin:0;color:var(--muted)}.research-facts{grid-template-columns:repeat(3,1fr);margin:28px 0}.note,.callout,figcaption{font:14px/1.6 var(--sans);color:var(--muted)}.callout{border-left:3px solid var(--accent);padding:16px 18px;background:#fde5e9;margin-top:24px;color:var(--ink)}.sector-list{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:25px 0}.sector-list span{font:12px/1.4 var(--sans);color:var(--muted);border-top:1px solid var(--line);padding-top:10px}.sector-list b{font:700 17px/1.6 var(--sans);display:block;color:var(--accent)}.model-flow{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.model-flow div{flex:1;min-width:105px;padding:14px 10px;border:1px solid var(--line);font:13px/1.45 var(--sans);color:var(--accent);text-align:center}.formula{font:28px/1.5 var(--serif);text-align:center;padding:18px 0;border-block:1px solid var(--line);margin:24px 0}.table-scroll{overflow-x:auto;margin:24px 0}table{border-collapse:collapse;width:100%;font:14px/1.5 var(--sans);text-align:left}th,td{padding:12px 10px;border-bottom:1px solid var(--line)}th{color:var(--accent);vertical-align:bottom}td:not(:first-child),th:not(:first-child){text-align:right}figure{margin:32px 0}figure img{width:100%;height:auto;border:1px solid var(--line);display:block}figcaption{padding-top:10px}.reference-list{padding-left:24px;font-size:16px}.reference-list li{margin-bottom:14px}.project-link{display:block;border-top:1px solid var(--line);color:var(--ink);text-decoration:none;padding:23px 0}.project-link:last-child{border-bottom:1px solid var(--line)}.project-link small,.project-link span{font:14px/1.4 var(--sans);color:var(--accent)}.project-link strong{display:block;font:400 25px/1.4 var(--serif);margin:6px 0}.project-link p{font-size:16px;color:var(--muted);margin:4px 0 10px}.project-link span{text-decoration:underline;text-underline-offset:3px}.project-link:hover strong{color:var(--accent)}@media(max-width:600px){.paper-subtitle{font-size:20px;line-height:1.5;max-width:680px;margin:0;color:var(--muted)}.research-facts{grid-template-columns:1fr 1fr}.sector-list{grid-template-columns:repeat(2,1fr)}.model-flow div{flex:1 1 40%}}
+
+@media(max-width:760px){.paper-hero{padding:36px 22px 26px}.paper-hero h1{font-size:clamp(32px,7vw,44px)}.paper-subtitle{font-size:19px}}
+
+/* Berry editorial accents: subtle color without interrupting the reading flow. */
+article h2{color:var(--accent)}
+.paper-hero+.reading article section{border-top-color:#d193a0}
+.paper-hero+.reading article h3{color:#6d2d44}
+.research-facts{background:#f9dce3;border:1px solid #edb8c6;padding:20px;border-radius:3px}
+.model-flow div{background:#fff0e8;border-color:#edc4be}
+.table-scroll thead{background:#f9dce3}
+.paper-hero+.reading aside a.active{border-left:2px solid var(--accent);padding-left:9px}
+.paper-hero+.reading .formula{background:#fff0ed;border-color:#edc4be;color:var(--accent)}
+.research-category{margin:36px 0 14px;border-left:3px solid var(--accent);padding:4px 0 4px 15px}
+.research-category h3{font:400 25px/1.35 var(--serif);color:var(--accent);margin:0}
+.research-category p{font-size:16px;color:var(--muted);margin:5px 0 0}
+.dashboard-launch{display:inline-block;background:var(--accent);color:white;text-decoration:none;font:600 16px/1.4 var(--sans);padding:12px 20px;border-radius:4px;margin-top:8px}
+.dashboard-launch:hover{background:#56091d;color:white}
+
+/* Kulfi-inspired palette: wine, rose, petal pink and warm cream. */
+.top{background:#56091d;border-bottom-color:#56091d}
+.top .brand,.top nav a{color:#fff8f4}
+.top .brand span{color:#f37095}
+.top nav a:hover{color:#ffc2d1}
+.top a:focus-visible{outline-color:#ffc2d1}
+.hero h1,.paper-hero h1{color:#56091d}
+.hero-rule{background:#cb6a75}
+.project-link:hover{background:#fff0ed}
+.project-link:hover strong{color:#7d1839}
+.callout{border-left-color:#b44854}
+.article-resources{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px}
+.article-resources a{display:inline-block;background:#f9dce3;color:#56091d;border:1px solid #d193a0;border-radius:4px;padding:10px 14px;text-decoration:none;font:600 14px/1.4 var(--sans)}
+.article-resources a:first-child{background:#7d1839;border-color:#7d1839;color:#fff}
+.article-resources a:hover{background:#56091d;border-color:#56091d;color:#fff}

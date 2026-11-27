@@ -1,0 +1,22 @@
+.home-page .portrait-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,350px);gap:56px;max-width:1000px;text-align:left;align-items:center;padding:65px 28px 70px}
+.portrait-hero h1{font-size:clamp(64px,10vw,116px);line-height:.91;margin:23px 0 24px}
+.portrait-hero .hero-rule{margin:26px 0}.portrait-hero .lead{margin:0 0 24px;font-size:21px}.portrait-hero .hero-links{justify-content:flex-start;align-items:center;gap:18px}.portrait-hero .dashboard-launch{margin:0}
+.portrait-frame{background:#f7dce6;padding:12px;border:1px solid #c58fa5;border-radius:140px 140px 8px 8px;box-shadow:10px 10px 0 #bd88ad;overflow:hidden}
+.portrait-frame img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 32%;border-radius:125px 125px 4px 4px}
+.home-page .reading{display:block;max-width:1000px}
+.career-timeline{margin-top:34px;scroll-margin-top:90px}.timeline{list-style:none;margin:0;padding:0;position:relative;--timeline-axis:55px}
+.timeline li:not(:last-child):before{content:"";position:absolute;top:0;bottom:0;left:var(--timeline-axis);width:2px;background:#b7829d}
+.timeline li{position:relative;display:grid;grid-template-columns:112px minmax(0,1fr);gap:26px;align-items:start;padding:0 0 28px}
+.timeline li:last-child{padding-bottom:0}.timeline-logo{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;background:#fff9f6;border:1px solid #d5b2cb;border-radius:6px;width:112px;height:68px;padding:9px}
+.timeline-logo img{width:100%;height:100%;object-fit:contain}.timeline-logo.nyu-logo{background:#57068c}.timeline-logo.vit-logo{overflow:hidden}.timeline-logo.vit-logo img{object-fit:cover}
+.timeline-body{background:#f4e9fa;border:1px solid #cbb3dd;border-radius:6px;padding:18px 22px}.timeline-body h3{font-size:25px;margin:5px 0}.timeline-body .role{font-size:13px;margin:6px 0 10px}.timeline-body p{font-size:16px;line-height:1.6;margin:0}
+.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.project-card{display:flex;flex-direction:column;overflow:hidden;border:1px solid #c9aed4;border-radius:8px;background:#f8effa;color:var(--ink);text-decoration:none;transition:border-color .15s,box-shadow .15s}
+.project-card:hover{border-color:#7d1839;box-shadow:0 5px 14px #7d183917;color:var(--ink)}
+.project-image{aspect-ratio:16/9;overflow:hidden;background:#fff9f6;border-bottom:1px solid #e3c9da;padding:10px;display:flex;justify-content:center;align-items:center}
+.project-image img{display:block;width:100%;height:100%;object-fit:contain}.project-image .midterm-thumbnail{object-fit:cover;object-position:center top}
+.project-copy{display:flex;flex-direction:column;flex:1;padding:18px}.project-copy small{font:600 12px/1.4 var(--sans);color:var(--accent)}.project-copy h3{font:400 24px/1.2 var(--serif);color:#56091d;margin:10px 0}.project-copy p{font-size:16px;line-height:1.5;color:var(--muted);margin:0 0 18px}.project-copy span{margin-top:auto;font:600 14px/1.4 var(--sans);color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.contact-links{display:flex;flex-wrap:wrap;gap:12px}.contact-links a{font:600 15px/1.5 var(--sans);background:#f8effa;border:1px solid #c9aed4;border-radius:4px;padding:10px 14px;text-decoration:none}.contact-links a:hover{border-color:var(--accent)}
+@media(max-width:760px){.home-page .portrait-hero{grid-template-columns:1fr;gap:35px;padding:35px 22px 45px}.portrait-frame{max-width:310px;width:80%;justify-self:center}.portrait-hero .intro-copy{text-align:center}.portrait-hero .hero-rule{margin:24px auto}.portrait-hero .lead{margin-left:auto;margin-right:auto}.portrait-hero .hero-links{justify-content:center}.timeline li{grid-template-columns:84px minmax(0,1fr);gap:13px}.timeline-logo{width:84px;height:60px;padding:6px}.timeline-body{padding:14px}.project-copy h3{font-size:23px}}
+@media(max-width:510px){.project-grid{grid-template-columns:1fr}.timeline-body h3{font-size:22px}.top nav{gap:11px}.top nav a{font-size:12px}}
+@media(max-width:760px){.timeline{--timeline-axis:41px}}
